@@ -115,69 +115,6 @@ func scrmb_cuv(cuvinte []string, nr_cuv int, l_cuv int) []string {
 	return cuvinte
 }
 
-// func read_numb_12(numbers []int) []int {
-// 	file, err := os.Open("12.txt")
-
-// 	if err != nil {
-// 		fmt.Println(err)
-// 	}
-
-// 	defer file.Close()
-
-// 	scanner := bufio.NewScanner(file)
-// 	scanner.Split(bufio.ScanWords)
-
-// 	for scanner.Scan() {
-// 		i, err := strconv.Atoi(scanner.Text())
-// 		if err == nil {
-// 			numbers = append(numbers, i)
-// 		}
-// 	}
-// 	return numbers
-// }
-
-// func read_numb_3(numbers []int) []int {
-// 	file, err := os.Open("3.txt")
-
-// 	if err != nil {
-// 		fmt.Println(err)
-// 	}
-
-// 	defer file.Close()
-
-// 	scanner := bufio.NewScanner(file)
-// 	scanner.Split(bufio.ScanWords)
-
-// 	for scanner.Scan() {
-// 		i, err := strconv.Atoi(scanner.Text())
-// 		if err == nil {
-// 			numbers = append(numbers, i)
-// 		}
-// 	}
-// 	return numbers
-// }
-
-// func read_numb_4(numbers []int) []int {
-// 	file, err := os.Open("4.txt")
-
-// 	if err != nil {
-// 		fmt.Println(err)
-// 	}
-
-// 	defer file.Close()
-
-// 	scanner := bufio.NewScanner(file)
-// 	scanner.Split(bufio.ScanWords)
-
-// 	for scanner.Scan() {
-// 		i, err := strconv.Atoi(scanner.Text())
-// 		if err == nil {
-// 			numbers = append(numbers, i)
-// 		}
-// 	}
-// 	return numbers
-// }
-
 func read_numb(f_name string, numbers []int) []int {
 	file, err := os.Open(f_name)
 
